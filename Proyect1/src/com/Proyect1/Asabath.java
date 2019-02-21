@@ -1,11 +1,13 @@
 package com.Proyect1;
 
 public  class Asabath extends Cifrar {
+
     public Asabath(String mensaje){
         super.Cifrar(mensaje);
     }
 
     public String codificar() {
+
         return null;
     }
 
