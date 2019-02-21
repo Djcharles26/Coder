@@ -5,7 +5,7 @@ public abstract class Cifrar extends Cifrador implements MetodosCifradores {
         mensajeSinCifrar = mensaje;
         size_espacios = countSpaces(mensajeSinCifrar);
         espacios = new int[size_espacios];
-
+        mensajeCifrado = new char[mensaje.length()];
     }
     private int countSpaces(String mensaje){
         int spaces = 0;
