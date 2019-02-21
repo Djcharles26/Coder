@@ -9,4 +9,5 @@ public abstract class Cifrador {
     protected String mensajeSinCifrar;
     protected char[] mensajeCifrado;
     protected String Contraseña;
+    protected char[] mensajeDeCifrado;
 }

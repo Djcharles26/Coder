@@ -1,5 +1,5 @@
 package com.Proyect1;
-
+import java.util.*;
 public  class Asabath extends Cifrar {
 
     public Asabath(String mensaje){
@@ -10,7 +10,7 @@ public  class Asabath extends Cifrar {
         }
     }
 
-    public String codificar() {
+    public void codificar() {
         int numeroLetra = 0;
         int positionMensajeCifrado = 0;
         for(char letra:mensajeSinCifrar.toCharArray()){
@@ -28,11 +28,18 @@ public  class Asabath extends Cifrar {
                 positionMensajeCifrado++;
             }
         }
-        return mensajeCifrado.toString();
+    }
+
+    public void deCodificar() {
+
     }
 
     public String getMensajeCifrado(){
-        return mensajeCifrado.toString();
+        return Arrays.toString(mensajeCifrado);
+    }
+
+    public String getMensajeDeCifrado(){
+        return Arrays.toString(mensajeDeCifrado);
     }
 
     public void setContraseña(String contraseña) {
