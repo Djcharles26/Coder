@@ -5,30 +5,27 @@ public class Cesar extends Cifrar{
         super.Cifrar(mensaje);
     }
     public String codificar(){
-        char [] caracteres = mensajeSinCifrar.toCharArray();
+        mensajeSinCifrar.toLowerCase();
+        char [] caracteres = mensajeSinCifrar.toCharArray(); // array de mensaje sin cifrar
+        char [] abc = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
+        char [] abcesar = {'D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','A','B','C'};
+        char [] cesar = new char[1000];
         int x = mensajeSinCifrar.length();
+        // recorrer mensaje sin cifrar
         for (int i = 0; i < x; i++){
-            if (caracteres[i] == 32){
-                caracteres[i] = 32;
-            }
-            if (caracteres[i] == 120){
-                caracteres[i] = 97;
-            }
-            else if (caracteres[i] == 121){
-                caracteres[i] = 98;
-            }
-            else if (caracteres[i] == 122){
-                caracteres[i] = 99;
-            }
-            if (caracteres[i] <= 97 && caracteres[i] == 119){
-                caracteres[i] += 3;
+            // recorrer array de abc
+            for (int j = 0; j < 26; j++){
+                // checa espacios
+                if (caracteres[i] == ' '){
+                    cesar[i] = ' ';
+                }
+                if (caracteres[i] == abc[j]){
+                    cesar[i] = abcesar[i];
+                    j = 27;
+                }
             }
         }
-        for (int i = 0; i < x; i++){
-            String mensajeCifrado = Character.toString(caracteres[i]);
-        }
-
-
+        String 
         return null;
     }
     public String getMensajeCifrado(){
