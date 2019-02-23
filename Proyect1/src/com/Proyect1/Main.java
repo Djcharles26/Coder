@@ -7,5 +7,7 @@ public class Main {
         codigo = new Asabath(new Scanner(System.in).nextLine());
         codigo.codificar();
         System.out.println(codigo.getMensajeCifrado());
+        codigo.deCodificar();
+        System.out.println(codigo.getMensajeDeCifrado());
     }
 }

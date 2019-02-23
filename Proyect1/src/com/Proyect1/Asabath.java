@@ -1,5 +1,6 @@
 package com.Proyect1;
 import java.util.*;
+
 public  class Asabath extends Cifrar {
 
     public Asabath(String mensaje){
@@ -13,7 +14,7 @@ public  class Asabath extends Cifrar {
     public void codificar() {
         int numeroLetra = 0;
         int positionMensajeCifrado = 0;
-        for(char letra:mensajeSinCifrar.toCharArray()){
+        for(char letra : mensajeSinCifrar.toCharArray()){
             numeroLetra = 0;
             if(letra==' '){
                 mensajeCifrado[positionMensajeCifrado] = letra;
@@ -30,8 +31,24 @@ public  class Asabath extends Cifrar {
         }
     }
 
-    public void deCodificar() {
 
+    public void deCodificar() {
+        int numeroLetra = 0;
+        int posMensajeDecifrado = 0;
+        for(char letra: mensajeCifrado){
+            numeroLetra = 0;
+            if(letra == ' '){
+                mensajeDeCifrado[posMensajeDecifrado] = letra;
+                posMensajeDecifrado++;
+            }else{
+                for(char ABCletra: ABCCodificador){
+                    if(letra == ABCletra) break;
+                    else numeroLetra++;
+                }
+                mensajeDeCifrado[posMensajeDecifrado] = ABC[numeroLetra];
+                posMensajeDecifrado++;
+            }
+        }
     }
 
     public String getMensajeCifrado(){
