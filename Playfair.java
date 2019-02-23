@@ -89,21 +89,69 @@ public class Playfair extends  Cifrar {
 	
 	@Override
     public void codificar() {
-		
+		char letter1,letter2;
+		int x = 0;
+		int iLetter[] = new int[2], jLetter[] = new int[2], currentLetter = 0;
+		for(int h =0; h<2; h++) {
+			for (int i = 0; i < 5:i++){
+				for (int j = 0; j < 5; j++) {
+					if(mensajeConFormato[currentLetter] == ' ') {
+						mensajeCifrado[x] = ' ';
+						x++;
+					}else if (mensajeConFormato[currentLetter] == ABCCodificador[i][j]) {
+						i = iLetter[h];
+						j = jLetter[h];
+					}
+				}
+
+			}
+		}
+
+		if(iLetter[0]==iLetter[1]){
+
+			for(int i = 0; i<2; i++) {
+				if (jLetter[i] ==4){
+					mensajeCifrado[x] = ABCCodificador[iLetter[0]][0];
+				}else{
+					mensajeCifrado[x] = ABCCodificador[iLetter[0]][jLetter[i] + 1];
+				}
+			}
+		}else if(jLetter[0] == jLetter[1]){
+
+			for(int i = 0; i<2; i++){
+				if(iLetter[i]==4){
+					mensajeCifrado[x] = ABCCodificador[0][jLetter[0]];
+					x++;
+				}else{
+					mensajeCifrado[x] = ABCCodificador[iLetter[i] + 1][jLetter[0]];
+					x++;
+				}
+			}
+		}else{
+			mensajeCifrado[x] = ABCCodificador[iLetter[0]][jLetter[1]];
+			x++;
+			mensajeCifrado[x] = ABCCodificador[iLetter[1]][jLetter[0]];
+			x++;
+		}
+
+
 		
 		
     }
 
     @Override
     public String getMensajeDeCifrado() {
-        return null;
+        return mensajeDecifrado;
     }
     public String getMensajeCifrado(){
-        return null;
+
+        return mensajeCifrado;
     }
 
     @Override
     public void deCodificar() {
+
+
 
     }
 
