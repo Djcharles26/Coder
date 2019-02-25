@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48bc81ef-ae77-4440-9f47-63012e800395" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/Proyect1/PasswordFormatException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyect1/com/Proyect1/Asabath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyect1/com/Proyect1/Asabath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyect1/com/Proyect1/Cifrador.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyect1/com/Proyect1/Cifrador.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyect1/com/Proyect1/Cifrar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyect1/com/Proyect1/Cifrar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyect1/com/Proyect1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyect1/com/Proyect1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proyect1/com/Proyect1/MetodosCifradores.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proyect1/com/Proyect1/MetodosCifradores.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Proyect1/Asabath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Proyect1/Asabath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Proyect1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Proyect1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Proyect1/Playfair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Proyect1/Playfair.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,27 +24,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Proyect1/Asabath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1430">
-              <caret line="58" column="30" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="30" />
+            <state relative-caret-position="368">
+              <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/Proyect1/Playfair.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="21" column="35" selection-end-line="166" />
               <folding>
-                <element signature="e#1834#1835#0" expanded="true" />
-                <element signature="e#1866#1867#0" expanded="true" />
+                <element signature="e#4113#4114#0" expanded="true" />
+                <element signature="e#4169#4170#0" expanded="true" />
+                <element signature="e#4209#4210#0" expanded="true" />
+                <element signature="e#4265#4266#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Proyect1/Playfair.java">
+        <entry file="file://$PROJECT_DIR$/src/com/Proyect1/PasswordFormatException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="-22">
+              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Proyect1/MetodosCifradores.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            <state relative-caret-position="130">
+              <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -100,10 +106,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/Proyect1/Cifrador.java" />
         <option value="$PROJECT_DIR$/src/com/Proyect1/Cifrar.java" />
-        <option value="$PROJECT_DIR$/src/com/Proyect1/MetodosCifradores.java" />
         <option value="$PROJECT_DIR$/src/com/Proyect1/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/Proyect1/Playfair.java" />
         <option value="$PROJECT_DIR$/src/com/Proyect1/Asabath.java" />
+        <option value="$PROJECT_DIR$/src/com/Proyect1/MetodosCifradores.java" />
+        <option value="$PROJECT_DIR$/src/com/Proyect1/PasswordFormatException.java" />
+        <option value="$PROJECT_DIR$/src/com/Proyect1/Playfair.java" />
       </list>
     </option>
   </component>
@@ -117,6 +124,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -140,13 +148,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550762624986" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551110443803" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -188,17 +195,18 @@
       <workItem from="1550756307262" duration="3601000" />
       <workItem from="1550772663907" duration="60000" />
       <workItem from="1550866038355" duration="370000" />
+      <workItem from="1551106735337" duration="2191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8178000" />
+    <option name="totallyTimeSpent" value="10369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26618123" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28883496" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -219,7 +227,6 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info anchor="right" id="Connector for AWS Lambda" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -229,6 +236,7 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Connector for AWS Lambda" order="9" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,13 +250,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Proyect1/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Proyect1/Cifrar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -256,31 +257,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Proyect1/MetodosCifradores.java">
+    <entry file="file://$PROJECT_DIR$/src/com/Proyect1/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        <state relative-caret-position="260">
+          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Proyect1/Playfair.java">
+    <entry file="file://$PROJECT_DIR$/src/com/Proyect1/MetodosCifradores.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="130">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Proyect1/Asabath.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1430">
-          <caret line="58" column="30" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="30" />
+        <state relative-caret-position="368">
+          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Proyect1/PasswordFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
-            <element signature="e#1834#1835#0" expanded="true" />
-            <element signature="e#1866#1867#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Proyect1/Playfair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="21" column="35" selection-end-line="166" />
+          <folding>
+            <element signature="e#4113#4114#0" expanded="true" />
+            <element signature="e#4169#4170#0" expanded="true" />
+            <element signature="e#4209#4210#0" expanded="true" />
+            <element signature="e#4265#4266#0" expanded="true" />
           </folding>
         </state>
       </provider>
