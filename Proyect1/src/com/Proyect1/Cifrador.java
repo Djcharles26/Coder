@@ -1,5 +1,8 @@
 package com.Proyect1;
-
+/*
+* CLASE ABSTRACTA NECESARIA, INSTANCIA TODAS LAS VARIABLES NECESARIAS PARA QUE TODO EL PROGRAMA
+* FUNCIONE
+* */
 public abstract class Cifrador {
     protected int[] espacios;
     protected char[] ABC = {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S',
